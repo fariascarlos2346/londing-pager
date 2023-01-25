@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*HEADER*/
+.header-menu {
+    background-color: #253961;
+    height: 100vh;
+}
+
+.header-menu a {
+    color: #FFF;   
+}
+
+.navbar .navbar-brand:hover {
+    color: #FFF;
+}
+
+.navbar-nav .nav-link {
+    color: #FFF;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+.navbar nav .nav-item {
+    padding-right: 1.5em;
+}
+
+/* SECTION HOME */
+.home img {
+    width: 550px;
+    height: 550px;
+}
+
+/* MAIN - PROJECTS */
+.container-main {
+    background-color: #F6F6F6;
+}
+
+.projects .cards {
+    display: flex;
+    justify-content: center;
+}
+
+.projects .card {
+    width: 90%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.projects .card button {
+    background-color: #253961;
+    border: none;
+}
+
+/* MAIN - ABOUT */
+.about .espaco-entre {
+    padding: 0;
+}
+
+.about .borda {
+    border: 1px solid #253961;
+}
+
+.about .borda p {
+    padding: 10px;
+}
+
+/* MAIN - ACTION */
+.oction {
+    background-color:rgb(38, 57, 77);
+    padding: 20px;
+}
+
+/* MAIN - COLABORATORS */
+.colaborators .row {
+    display: flex;
+    justify-content: center;
+}
+
+.colaborators .border {
+    width: 25%;
+    padding: 10px;
+    margin-right: 2em;
+    border-radius: 0.5em;
+}
+
+.colaborators .border i {
+    font-size: 35px;
+}
+
+.border .bt-facebook {
+    color:#0d54e1;
+}
+.border .bt-twitter {
+    color:#0d54e1;
+}
+.border .bt-apple {
+    color:#0d54e1;
+}
+
+.border .bt-youtub {
+    color: #00b520;
+}
+.border .bt-discord {
+    color:#00B520;
+}
+.border .bt-sportfy {
+    color: #00b520;
+}
